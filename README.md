@@ -1,2 +1,2 @@
-# html-homework-01
-Домашнее задание №01
+# goit-markup-hw-08
+Репозиторий GoIt ДЗ8

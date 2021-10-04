@@ -1,0 +1,37 @@
+.page-header {
+    border-bottom: 1px solid #ececec;
+    // position: fixed;
+    width: 100%;
+    // min-height: 80px;
+
+    @media screen and (max-width: 767px){
+     height: 60px;
+    }
+
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color:$primaryBcgColor;
+  }
+  
+  .container__nav{
+    @media screen and (min-width: 768px){
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 1199px){
+    justify-content: space-between;
+  }
+  
+}
+  
+
+
+ 
