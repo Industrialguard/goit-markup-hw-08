@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -271,7 +271,7 @@
                 class="work__image"
                 srcset="./images/img11.jpg 1x, ./images/img11-2x.jpg 2x"
                 src="./images/img11.jpg"
-                alt="пальцы рук печатают на клавиатуре"
+                alt="Разработчик набирает разметку страницы"
                 width="370"
               />
             </li>
@@ -281,7 +281,7 @@
                 class="work__image"
                 srcset="./images/img12.jpg 1x, ./images/img12-2x.jpg 2x"
                 src="./images/img12.jpg"
-                alt="в левой руке телефон, пальцами правой руки водит по тачпаду макбука"
+                alt="Делаем разработку мобильного приложения"
                 width="370"
               />
             </li>
@@ -291,7 +291,7 @@
                 class="work__image"
                 srcset="./images/img13.jpg 1x, ./images/img13-2x.jpg 2x"
                 src="./images/img13.jpg"
-                alt="в левой руке планшет, на экране которого электронная цветовая палитра"
+                alt="Разрабатываем стилизаци оформления"
                 width="370"
               />
             </li>
@@ -308,7 +308,7 @@
                 srcset="./images/igor.jpg 1x, images/igor-2x.jpg 2x"
                 class="team-card__image"
                 src="./images/igor.jpg"
-                alt="улыбающийся молодой русый мужчина с бородой в очках"
+                alt="Фото Игоря Демяненко"
                 width="270"
               />
               <div class="team-card__description">
@@ -351,7 +351,7 @@
                 class="team-card__image"
                 srcset="./images/olya.jpg 1x, images/olya-2x.jpg 2x"
                 src="./images/olya.jpg"
-                alt="улыбающаяся молодая девушка блондинка в очках с веснушками"
+                alt="Фото Ольги Репиной"
                 width="270"
               />
               <div class="team-card__description">
@@ -394,7 +394,7 @@
                 class="team-card__image"
                 srcset="./images/kolya.jpg 1x, images/kolya-2x.jpg 2x"
                 src="./images/kolya.jpg"
-                alt="улыбающийся молодой рыжий мужчина с бородкой"
+                alt="Фото Николая Тарасова"
                 width="270"
               />
               <div class="team-card__description">
@@ -437,7 +437,7 @@
                 class="team-card__image"
                 srcset="./images/misha.jpg 1x, images/misha-2x.jpg 2x"
                 src="./images/misha.jpg"
-                alt="молодой мужчина брюнет в очках"
+                alt="Фото Михаила Ермакова"
                 width="270"
               />
               <div class="team-card__description">
@@ -618,8 +618,6 @@
         document
           .querySelector('.js-speaker-form')
           .addEventListener('submit', e => {
-            e.preventDefault();
-
             new FormData(e.currentTarget).forEach((value, name) =>
               console.log(`${name}: ${value}`),
             );
